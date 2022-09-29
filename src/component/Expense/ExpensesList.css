@@ -1,0 +1,8 @@
+.expense-List{
+  list-style: none;
+}
+.expense-List__claback{
+  text-align: center;
+  color:white;
+  text-transform: capitalize;
+}

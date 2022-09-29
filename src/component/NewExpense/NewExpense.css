@@ -1,0 +1,63 @@
+.new-expense{
+  background-color: rgb(170, 100, 235) !important;
+  margin: 1rem 0rem;
+  padding: 2.4rem;
+  box-shadow:0px 2px 8px rgba(0, 0, 0, 0.25) ;
+  border-radius: 12px;
+}
+form ,.new-expense{
+  position: relative;
+}
+.new-expense__contorls{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-gap:10px 14px ;
+  transition: display 0.3s;
+}
+.lightform{
+  display: block;
+}
+.hide-lightform{
+ display: none;
+}
+
+.new-expene__control{
+  display: flex;
+  flex-direction: column;
+}
+.new-expene__control label{
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 0.3rem;
+}
+.new-expene__control input{
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.3rem;
+}
+.new-expense__actions{
+position: absolute;
+bottom: -30px;
+right: 2px;
+}
+ button{
+  padding: 0.8rem 1.2rem;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background-color: #40005d;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+}
+.new-expense .btn-edit{
+  position: absolute;
+  top:20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.new-expense__action button{
+  margin:0px 6px ;
+}
